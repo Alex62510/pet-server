@@ -8,7 +8,7 @@ dotenv.config();
 const PORT = process.env || 5000;
 
 const makeRequestToGoogle = () => {
-    request('https://blog-fullstack-v4zf.onrender.com', (err, response, body) => {
+    request('https://blog-fullstack-v4zf.onrender.com', (err:any, response:any, body:any) => {
         if (err) {
             console.error('Error:', err);
         } else {
