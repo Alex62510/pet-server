@@ -5,7 +5,7 @@ import request from 'request';
 const app = express();
 dotenv.config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env || 5000;
 
 const makeRequestToGoogle = () => {
     request('https://blog-fullstack-v4zf.onrender.com', (err, response, body) => {

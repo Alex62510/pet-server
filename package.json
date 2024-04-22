@@ -2,10 +2,10 @@
   "name": "pet_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "nodemon --inspect dist/index.js"
+    "start": "nodemon --inspect src/index.js"
   },
   "type": "module",
   "keywords": [],
